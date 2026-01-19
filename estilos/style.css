@@ -252,6 +252,32 @@ footer {
 
 
 @media screen and (min-width: 768px) {
+  main {
+    grid-template-columns: auto 300px 1fr auto;
+
+  }
+  
+  section#ficha {
+    grid-column: 2 / 3;
+    height: fit-content;
+    position: sticky;
+    top: 65px;
+
+  }
+
+  section#detalhes {
+    grid-column: 3 / 4;
+
+  }
+
+
+
+
+
+
+    #skill-conainer {
+    grid-template-columns: 1fr 1fr;
+  }
 
   #projeto-container .projeto {
     flex-direction: row;
