@@ -15,8 +15,17 @@
   --texto: #222222;
   --texto-inverso: #d6d6d6;
   --destaque: #0077ff;
-  --destaque-inverso: #dfdfdf;
-  --fundo-card: #f7f7f7;
+  --destaque-inverso: #3c47db;
+  --fundo-card: #ffffff;
+
+}
+body.escuro {
+  --fundo-principal: #222222;
+  --texto: #e0e0e0;
+  --texto-inverso: #333333;
+  --destaque: #b922ff;
+  --destaque-inverso: #a73917;
+  --fundo-card: #444444;
 
 }
 
@@ -25,6 +34,7 @@ body {
   line-height: 1.5em;
   background-color: var(--fundo-principal);
   color: var(--texto);
+  transition: background-color 0.5s, color 0.5s;
 }
 
 header {
